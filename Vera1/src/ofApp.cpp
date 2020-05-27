@@ -4,17 +4,24 @@
 void ofApp::setup(){
     
     attempt = 0; // You can change this to whatever default you want
+    doSaveScreen = false;
+    string caseNumber;
+    
+    gui.setup();
+    gui.add(rectSize.setup("rectSize", 70, 10, 300));
     
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     
+   
+    
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    
+
     //ofDrawCircle();
     //ofDrawRectangle();
     
@@ -56,6 +63,9 @@ void ofApp::draw(){
             //     --------------------------------------------------------------
             
         case 2:
+            
+            
+            caseNumber = "2";
             
             ofBackground(255, 0, 0);
             ofSetColor(255);
@@ -183,6 +193,11 @@ void ofApp::draw(){
 
             
         case 0:
+             caseNumber = "FINAL";
+          
+            
+//            ofDrawBitmapString(caseNumber,100, 100);
+
 
             ofSeedRandom(mouseX*1000); // hack to achieve seed`s big number
 //            ofSeedRandom(0); // hack to achieve seed`s big number
@@ -227,14 +242,16 @@ void ofApp::draw(){
 //                    ofVertex(x + rectSize + ofRandom(-offset,offset), y + rectSize + ofRandom(-offset,offset));
 //                    ofVertex(x + ofRandom(-offset,offset), y + rectSize + ofRandom(-offset,offset));
 //                    ofEndShape(true);
-                  
+//                    gui.draw();
                 }
+                
+                
             }
-            
             break;
             
     }
     
+//    gui.draw();
 }
 
 //--------------------------------------------------------------
@@ -248,11 +265,28 @@ void ofApp::keyPressed(int key){
             attempt--;
             break;
     }
+    
+    if(key == 'c' ){
+        ofDrawBitmapString(caseNumber,100, 100);
+    }
+    
+    
+    if(key == 'x'){
+        doSaveScreen = true;
+
+        if(doSaveScreen){
+            ofSaveScreen(ofToString(ofGetFrameNum())+".png");
+            doSaveScreen = false;
+    
+            //        img.grabScreen(0, 0 , ofGetWidth(), ofGetHeight());
+            //        img.save("screenshot.png");
+        }
+        
+    }
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-    
 }
 
 //--------------------------------------------------------------

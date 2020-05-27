@@ -1,6 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxGui.h" // afffor GUI
+
 
 class ofApp : public ofBaseApp{
 
@@ -21,6 +23,18 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
-        int attempt;
+        int attempt; // set the case
+    
         int intuition;
+    
+        ofImage img;
+        bool doSaveScreen;
+    
+        string caseNumber;
+    
+        ofxPanel gui;
+        ofxFloatSlider rectSize;
+
+    
+
 };
