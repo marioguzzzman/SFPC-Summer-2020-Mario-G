@@ -28,7 +28,15 @@ class ofApp : public ofBaseApp{
         ofImage img;
         bool doSaveScreen;
     
+        string caseName;
+    
         ofxPanel gui;
         ofxFloatSlider rectSize;
+        ofxFloatSlider mapx1;
+        ofxFloatSlider mapx2;
+        ofxFloatSlider mapy1;
+        ofxFloatSlider mapy2;
+        ofxFloatSlider overRect;
+        ofxFloatSlider overlapX;
 		
 };
