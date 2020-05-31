@@ -28,7 +28,7 @@ void ofApp::draw(){
     //    ofBackground(0);
     //ofBackground(237,25,65); //44 Trapèzes (144 Trapeziums) - 1974 - computer graphic, open series, 16 variations
     ofBackground(220,119,91); // Vera Molnár
-    ofSetColor(226,207,208, 90);
+    ofSetColor(226,207,208);
     ofNoFill();
     ofSetLineWidth(0.5);
     
