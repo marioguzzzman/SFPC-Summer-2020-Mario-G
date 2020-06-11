@@ -788,6 +788,7 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../../addons/ofxGui/src</string>
 						<string>../../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../../addons/ofxXmlSettings/src</string>
@@ -832,6 +833,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>src</string>
 						<string>../../../../addons/ofxGui/src</string>
 						<string>../../../../addons/ofxXmlSettings/libs</string>
@@ -3638,6 +3640,7 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../../addons/ofxGui/src</string>
 						<string>../../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../../addons/ofxXmlSettings/src</string>
@@ -3702,6 +3705,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>src</string>
 						<string>../../../../addons/ofxGui/src</string>
 						<string>../../../../addons/ofxXmlSettings/libs</string>
@@ -3845,6 +3849,7 @@ fi
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
+						<string>src</string>
 						<string>../../../../addons/ofxGui/src</string>
 						<string>../../../../addons/ofxXmlSettings/libs</string>
 						<string>../../../../addons/ofxXmlSettings/src</string>
@@ -3898,6 +3903,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>src</string>
 						<string>../../../../addons/ofxGui/src</string>
 						<string>../../../../addons/ofxXmlSettings/libs</string>
