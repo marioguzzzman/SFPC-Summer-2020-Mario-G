@@ -3,24 +3,86 @@
 //-------------------------------------- VIDEO ----------------------------------------
 //-------------------------------------------------------------------------------------
 
-#codes to reduce videos and concatenate
+//----------------- Extract video frames
+ffmpeg -i file.mpg -r 1/1 $filename%03d.jpg
+ffmpeg -i "C:\Applications\FFMPEG\aa.mp4" "frames/out-%03d.jpg"
+
+
+//-----------------codes to reduce videos and concatenate
 
 #Reduce video size
 #docker run -v /home/mario/Desktop/marioguzmanweb/lstm/videos/random_narrative_videos/full_color:/vids bennetimo/shrinkwrap     --input-extension mp4 --ffmpeg-opts crf=22,preset=fast /vids
 
 #https://trac.ffmpeg.org/wiki/Concatenate
 
-# with a bash for loop entire folder
+//----------------- with a bash for loop entire folder
 #for f in ./*.mp4; do echo "file '$f'" >> mylist.txt; done
 
-#concatenate videos
-#ffmpeg -f concat -safe 0 -i mylist.txt -c copy min_full_color.mp4
+//----------------- concatenate videos
+ffmpeg -f concat -safe 0 -i mylist.txt -c copy min_full_color.mp4
+
+
+//----------------- Linux turn off self balancing by using v4l2ucp. Yapt-get install v4l2ucp
+https://sourceforge.net/projects/v4l2ucp/
+apt-get install v4l2ucp
 
 
 
 //-------------------------------------------------------------------------------------
 //---------------------------------- OPEN FRAMEWORKS ----------------------------------
 //-------------------------------------------------------------------------------------
+
+
+//----------------------- Saving image from app when hitting space bar
+void ofApp::keyPressed(int key){
+  if (key == ' '){
+    ofSaveScreen(ofGetTimestampString() + ".png");
+  }
+}
+
+
+//----------------------- Saving image from app when hitting space bar
+
+
+   if(key == 'x'){
+        doSaveScreen = true;
+        
+        if(doSaveScreen){
+            ofSaveScreen(ofToString(ofGetFrameNum())+".png");
+            doSaveScreen = false;
+            
+            //        img.grabScreen(0, 0 , ofGetWidth(), ofGetHeight());
+            //        img.save("screenshot.png");
+        }
+        
+    }
+
+
+//----------------------- Saving image from app 
+
+#it will export a screenshot every time you run the code if you include screenshot.run() at the end of the draw function. And you can set it up to screenshot on keypress with screenshot.take() in keyPressed.
+
+https://github.com/lisajamhoury/sfpc_rtp_hw/tree/master/00_utils_screenshot
+
+
+//----------------- Video instead of camera feed
+
+# loading data from a video instead of the webcam,
+ofVideoPlayer player;
+void ofApp::setup() { 
+  // loads file from bin/data/my_video.mp4
+  player.load("my_video.mp4"); 
+  player.setSpeed(1.0);
+  player.setVolume(0);
+  player.play();
+  player.setLoopState(OF_LOOP_NORMAL);
+}
+void ofApp::update(){
+  player.update();
+}
+void ofApp::draw() {
+  player.draw(0,0);
+}
 
 
 //-----------------Adding directory of images
@@ -94,7 +156,7 @@ average.allocate(640,480, OF_IMAGE_COLOR); // allocate the initial dimentions
 
 
 
- // -----------------snippet to sort with lambda
+ // ----------------- snippet to sort with lambda
     sort(images.begin(), images.end(),
         [](const imageWithData & a, const imageWithData & b) -> bool
     {
@@ -102,6 +164,113 @@ average.allocate(640,480, OF_IMAGE_COLOR); // allocate the initial dimentions
     });
 
 
+// ----------------- ofPolyline
+
+ofPolyline is a super useful representation for shapes, but feeling comfortable and creative with it takes practice.
+
+Few functions associated with ofPolyline that I've found useful in the past. You may want to investigate some of these on your own, especially in the context of Zach's examples that use "input.mov".
+
+myline.inside(x,y) <- returns a bool, telling you if the given point is inside of your closed polyline.
+
+myline.getCentroid2D() <- returns a point at the center of your shape! it's easier to deal with one point than a whole line of them.
+
+myline.getClosesetPoint(p) <- Pass in a ofVec2f , and get back the position of the closest point along your line to that point.
+
+myline.getNormalAtIndex(i) <- returns an x & y vector representing the direction outwardly perpendicular to your line at a given index.
+
+myline.getResampledBySpacing(f)  <- return a new polyline where each point is an even distance from it's neighbors. useful when you need a lower or higher resolution line!
+
+myline.getSmoothed(i)  <- returns back a more smooth version of the polyline, higher number = smoother
+
+myline.getBoundingBox() <-- returns an ofRectangle which is the bounds of this polyline
+
+myline.getResampledByCount()  <--- like resampled by spacing but this will return a consistent number of points
+
+myline.setClosed(bool) <-- is the polyline closed?  Sometimes you may need to set this if you see it not smoothing correctly, etc
+
 //----------------- VIDEO FROM CAMERA
 
 ofVideoGrabber grabber;
+
+//----------------- GUI SHORTCUT FOR h file
+
+// still needs draw.gui();
+
+ ofParameter<int> positionMode{ "Position Mode", 0, 0, 1 };
+    ofParameter<float> positionWeight{ "Position Weight", 1.0f, 0.0f, 1.0f };
+    ofParameter<float> boundsWeight{ "Bounds Weight", 1.0f, 0.0f, 1.0f };
+    ofParameter<float> perimeterWeight{ "Perimeter Weight", 1.0f, 0.0f, 1.0f };
+    ofParameter<float> areaWeight{ "Area Weight", 1.0f, 0.0f, 1.0f };
+    ofParameterGroup params{ "Tracker",
+        positionMode, positionWeight,
+        boundsWeight,
+        perimeterWeight,
+        areaWeight
+    };
+
+//-------------------------------------------------------------------------------------
+//-------------------------------------- IMAGES ----------------------------------------
+//-------------------------------------------------------------------------------------
+
+
+//------------------------- Image space
+
+
+A command line tip (linux/mac users) for all the photos you collect - if you are low on space on your hard drive, you can save space by saving the photos in a single location on your laptop (something like a sub-directory in your /Pictures directory) and then symbolically link them inside the /bin/data directory of your apps. Reduces duplicating files by using the ln command :bow_and_arrow:
+ln -s /path/to/photos /path/to/app/symlink
+
+//------------------------- GIF generation
+
+https://sfpc.slack.com/archives/C014KHF2NU8/p1594499531205300?thread_ts=1594196791.083600&cid=C014KHF2NU8
+
+//EXPORTING CODE SNIPPET
+//.h file
+    bool doSaveScreen = false;
+    int frameCounter = 0;
+//main cpp file
+void ofApp::update(){
+    //you can change the 10 to be another number if you want the intervals between each frame to be shorter, longer
+    if (ofGetFrameNum() % 10 == 0) {
+        doSaveScreen = true;
+    }
+    if(doSaveScreen) {
+           ofSaveScreen(ofToString(frameCounter)+".png");
+           frameCounter ++;
+           doSaveScreen = false;
+       }
+}
+
+
+//-------------------------------------------------------------------------------------
+//-------------------------------------- TEXT ----------------------------------------
+//-------------------------------------------------------------------------------------
+
+
+//------------------------- concatenate many small disparate .txt
+
+ls *.txt | xargs -L 1 cat >> input.txt)
+
+
+
+//-------------------------------------------------------------------------------------
+//-------------------------------------- P5JS ----------------------------------------
+//-------------------------------------------------------------------------------------
+
+//------------------------- Terminal text
+
+let sourceText = ' ';
+let textSpeed = 0;
+
+var startWriting = 0;
+    var right = startWriting + textSpeed;
+
+    // Speed of the text being generated
+
+    if (textSpeed < sourceText.length) {
+        textSpeed += 0.3;
+    } else {
+        textSpeed = 0;
+        textSpeed += 0.3;
+    }
+
+text(sourceText.substring(startWriting, right + 1), posXtextT, posYtextT + 100, w, h);

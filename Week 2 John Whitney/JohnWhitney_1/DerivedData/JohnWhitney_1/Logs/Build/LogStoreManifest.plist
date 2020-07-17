@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>9EB71364-DC36-4A26-BEA4-7DD5C4FE13FA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9EB71364-DC36-4A26-BEA4-7DD5C4FE13FA.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JohnWhitney_1 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JohnWhitney_1 Release</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build JohnWhitney_1 Release</string>
+			<key>timeStartedRecording</key>
+			<real>615366562.23895204</real>
+			<key>timeStoppedRecording</key>
+			<real>615366565.17837203</real>
+			<key>title</key>
+			<string>Build JohnWhitney_1 Release</string>
+			<key>uniqueIdentifier</key>
+			<string>9EB71364-DC36-4A26-BEA4-7DD5C4FE13FA</string>
+		</dict>
+		<key>D267CD47-287C-4C4F-AB62-7BA98F4F5460</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D267CD47-287C-4C4F-AB62-7BA98F4F5460.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JohnWhitney_1 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JohnWhitney_1 Release</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build JohnWhitney_1 Release</string>
+			<key>timeStartedRecording</key>
+			<real>615366331.38898396</real>
+			<key>timeStoppedRecording</key>
+			<real>615366333.49023199</real>
+			<key>title</key>
+			<string>Build JohnWhitney_1 Release</string>
+			<key>uniqueIdentifier</key>
+			<string>D267CD47-287C-4C4F-AB62-7BA98F4F5460</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

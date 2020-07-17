@@ -9,7 +9,7 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
-			<key>6A7153E0F5EFF5622F1EB21F</key>
+			<key>01DCC0911400F9ACF5B65578</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -20,7 +20,7 @@
 				<key>name</key>
 				<string>ofxXmlSettings.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxXmlSettings/src/ofxXmlSettings.h</string>
+				<string>../../../addons/ofxXmlSettings/src/ofxXmlSettings.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -28,8 +28,8 @@
 			<dict>
 				<key>children</key>
 				<array>
-					<string>BA80450995764F8FABAB1604</string>
-					<string>6A7153E0F5EFF5622F1EB21F</string>
+					<string>50DF87D612C5AAE17AAFA6C0</string>
+					<string>01DCC0911400F9ACF5B65578</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -38,14 +38,14 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>40755491CDDD7249B25A1F2D</key>
+			<key>63B57AC5BF4EF088491E0317</key>
 			<dict>
 				<key>fileRef</key>
-				<string>BA80450995764F8FABAB1604</string>
+				<string>50DF87D612C5AAE17AAFA6C0</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>BA80450995764F8FABAB1604</key>
+			<key>50DF87D612C5AAE17AAFA6C0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -56,18 +56,18 @@
 				<key>name</key>
 				<string>ofxXmlSettings.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp</string>
+				<string>../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8AAF2BA4AFCBEC334841B989</key>
+			<key>5A4349E9754D6FA14C0F2A3A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>B0FB861B0D843DF212503B18</string>
+				<string>FC5DA1C87211D4F6377DA719</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>B0FB861B0D843DF212503B18</key>
+			<key>FC5DA1C87211D4F6377DA719</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -78,18 +78,18 @@
 				<key>name</key>
 				<string>tinyxmlparser.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp</string>
+				<string>../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>28DCB9949680410908EFD4D5</key>
+			<key>9D44DC88EF9E7991B4A09951</key>
 			<dict>
 				<key>fileRef</key>
-				<string>8AED12DBC5DC04739E95CD26</string>
+				<string>832BDC407620CDBA568B713D</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>8AED12DBC5DC04739E95CD26</key>
+			<key>832BDC407620CDBA568B713D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -100,11 +100,11 @@
 				<key>name</key>
 				<string>tinyxmlerror.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp</string>
+				<string>../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>8FBDBA8D2DCA49DC504F1850</key>
+			<key>B21E7E5F548EEA92F368040B</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -115,7 +115,7 @@
 				<key>name</key>
 				<string>tinyxml.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxXmlSettings/libs/tinyxml.h</string>
+				<string>../../../addons/ofxXmlSettings/libs/tinyxml.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -123,10 +123,10 @@
 			<dict>
 				<key>children</key>
 				<array>
-					<string>126B1BBACED427BD4F54BC45</string>
-					<string>8FBDBA8D2DCA49DC504F1850</string>
-					<string>8AED12DBC5DC04739E95CD26</string>
-					<string>B0FB861B0D843DF212503B18</string>
+					<string>2B40EDA85BEB63E46785BC29</string>
+					<string>B21E7E5F548EEA92F368040B</string>
+					<string>832BDC407620CDBA568B713D</string>
+					<string>FC5DA1C87211D4F6377DA719</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -149,14 +149,14 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>B8A4986AE3CFD44755D311C7</key>
+			<key>933A2227713C720CEFF80FD9</key>
 			<dict>
 				<key>fileRef</key>
-				<string>126B1BBACED427BD4F54BC45</string>
+				<string>2B40EDA85BEB63E46785BC29</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>126B1BBACED427BD4F54BC45</key>
+			<key>2B40EDA85BEB63E46785BC29</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -167,11 +167,11 @@
 				<key>name</key>
 				<string>tinyxml.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxXmlSettings/libs/tinyxml.cpp</string>
+				<string>../../../addons/ofxXmlSettings/libs/tinyxml.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>78F524ADA8DDC5DF3F460FA5</key>
+			<key>0A1DAC09F322AE313A40706D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -182,18 +182,18 @@
 				<key>name</key>
 				<string>ofxToggle.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxToggle.h</string>
+				<string>../../../addons/ofxGui/src/ofxToggle.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B07D6C52C2FE371D2B91739E</key>
+			<key>1CD33E884D9E3358252E82A1</key>
 			<dict>
 				<key>fileRef</key>
-				<string>E118568A6BABFFADB75DB858</string>
+				<string>907C5B5E104864A2D3A25745</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>E118568A6BABFFADB75DB858</key>
+			<key>907C5B5E104864A2D3A25745</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -204,11 +204,11 @@
 				<key>name</key>
 				<string>ofxToggle.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxToggle.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxToggle.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CC050FCE6035B4BAFB0D11B1</key>
+			<key>C70D8946940288799E82131E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -219,18 +219,18 @@
 				<key>name</key>
 				<string>ofxSliderGroup.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxSliderGroup.h</string>
+				<string>../../../addons/ofxGui/src/ofxSliderGroup.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>413B65A0F41D699F37AB4C06</key>
+			<key>B56FE57CC35806596D38118C</key>
 			<dict>
 				<key>fileRef</key>
-				<string>99B37C8367EB4811EEF8E78D</string>
+				<string>802251BAF1B35B1D67B32FD0</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>99B37C8367EB4811EEF8E78D</key>
+			<key>802251BAF1B35B1D67B32FD0</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -241,11 +241,11 @@
 				<key>name</key>
 				<string>ofxSliderGroup.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxSliderGroup.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxSliderGroup.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D41FA502010DB4C51A4C1390</key>
+			<key>52AFA1F08C420992CAAAE648</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -256,18 +256,18 @@
 				<key>name</key>
 				<string>ofxSlider.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxSlider.h</string>
+				<string>../../../addons/ofxGui/src/ofxSlider.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A2953313263AE1234930247E</key>
+			<key>837220E80EB56CD44AD27F2A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>AEA7CD14AC4CC1AF68D59D19</string>
+				<string>15F2C6477A769C03A56D1401</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>AEA7CD14AC4CC1AF68D59D19</key>
+			<key>15F2C6477A769C03A56D1401</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -278,11 +278,11 @@
 				<key>name</key>
 				<string>ofxSlider.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxSlider.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxSlider.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>4EBE44F173B46F539D0F4741</key>
+			<key>89449E3044D456F7DE7BEA14</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -293,18 +293,18 @@
 				<key>name</key>
 				<string>ofxPanel.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxPanel.h</string>
+				<string>../../../addons/ofxGui/src/ofxPanel.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CE6F136678038366969711AB</key>
+			<key>F285EB3169F1566CA3D93C20</key>
 			<dict>
 				<key>fileRef</key>
-				<string>27CE0445D02D803853EC74E8</string>
+				<string>E112B3AEBEA2C091BF2B40AE</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>27CE0445D02D803853EC74E8</key>
+			<key>E112B3AEBEA2C091BF2B40AE</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -315,11 +315,11 @@
 				<key>name</key>
 				<string>ofxPanel.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxPanel.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxPanel.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>F100E30570234E337922C10C</key>
+			<key>B87C60311EC1FE841C1ECD89</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -330,18 +330,18 @@
 				<key>name</key>
 				<string>ofxLabel.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxLabel.h</string>
+				<string>../../../addons/ofxGui/src/ofxLabel.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>81BE400C35825643551A3190</key>
+			<key>483908258D00B98B4BE69F07</key>
 			<dict>
 				<key>fileRef</key>
-				<string>73799D65360CD587DCAE90A0</string>
+				<string>78D67A00EB899FAC09430597</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>73799D65360CD587DCAE90A0</key>
+			<key>78D67A00EB899FAC09430597</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -352,11 +352,11 @@
 				<key>name</key>
 				<string>ofxLabel.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxLabel.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxLabel.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>E88235F2E990B0174C9DE6C4</key>
+			<key>AE68B54581BE4A1DAE853180</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -367,18 +367,18 @@
 				<key>name</key>
 				<string>ofxInputField.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxInputField.h</string>
+				<string>../../../addons/ofxGui/src/ofxInputField.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>75E465AE7EDAD189B42B8D95</key>
+			<key>852E0891794923EE7583C621</key>
 			<dict>
 				<key>fileRef</key>
-				<string>0C357D495FA2C612DDB38FC2</string>
+				<string>44B351490B620D04E1E7C52D</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>0C357D495FA2C612DDB38FC2</key>
+			<key>44B351490B620D04E1E7C52D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -389,11 +389,11 @@
 				<key>name</key>
 				<string>ofxInputField.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxInputField.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxInputField.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>AE7C2B0FD9ACD2665F8EEC36</key>
+			<key>BA274EC7A169D538BD43A5D8</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -404,11 +404,11 @@
 				<key>name</key>
 				<string>ofxGuiUtils.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxGuiUtils.h</string>
+				<string>../../../addons/ofxGui/src/ofxGuiUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>44C0961009D36089EBA9C36F</key>
+			<key>1C0DA2561397A7DE0246858B</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -419,18 +419,18 @@
 				<key>name</key>
 				<string>ofxGuiGroup.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxGuiGroup.h</string>
+				<string>../../../addons/ofxGui/src/ofxGuiGroup.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CFFFBA144E8160ECC1C97982</key>
+			<key>B266578FC55D23BFEBC042E7</key>
 			<dict>
 				<key>fileRef</key>
-				<string>BD6A6ADD1A79B85E833FBDF1</string>
+				<string>ECF8674C7975F1063C5E30CA</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>BD6A6ADD1A79B85E833FBDF1</key>
+			<key>ECF8674C7975F1063C5E30CA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -441,11 +441,11 @@
 				<key>name</key>
 				<string>ofxGuiGroup.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxGuiGroup.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxGuiGroup.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>607FCA3A979EBCF02F0B00FC</key>
+			<key>17E65988300FBD9AAA2CD0CA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -456,11 +456,11 @@
 				<key>name</key>
 				<string>ofxGui.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxGui.h</string>
+				<string>../../../addons/ofxGui/src/ofxGui.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>99BDB3B23FCF282EB2B48FAE</key>
+			<key>489B196944B06ADC2A071076</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -471,18 +471,18 @@
 				<key>name</key>
 				<string>ofxColorPicker.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxColorPicker.h</string>
+				<string>../../../addons/ofxGui/src/ofxColorPicker.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>CA7E31A02CAF4836F8551ADD</key>
+			<key>853E0BA2F448076739446874</key>
 			<dict>
 				<key>fileRef</key>
-				<string>1824C7C391A2977DC5B741C4</string>
+				<string>181D363B6DD54D1FA6309C43</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>1824C7C391A2977DC5B741C4</key>
+			<key>181D363B6DD54D1FA6309C43</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -493,11 +493,11 @@
 				<key>name</key>
 				<string>ofxColorPicker.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxColorPicker.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxColorPicker.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>481083C90D96C0AAA580E194</key>
+			<key>2834D88A62CD23F3DE2C47D1</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -508,18 +508,18 @@
 				<key>name</key>
 				<string>ofxButton.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxButton.h</string>
+				<string>../../../addons/ofxGui/src/ofxButton.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>A61B54CA66E926867C59D2C6</key>
+			<key>5CBB2AB3A60F65431D7B555D</key>
 			<dict>
 				<key>fileRef</key>
-				<string>AE859610F3926950EBBC8B13</string>
+				<string>C88333E71C9457E441C33474</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>AE859610F3926950EBBC8B13</key>
+			<key>C88333E71C9457E441C33474</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -530,11 +530,11 @@
 				<key>name</key>
 				<string>ofxButton.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxButton.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxButton.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>EE3013E1AD254D862ADCA585</key>
+			<key>87F26B4B24CBD428AD9EEBAA</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -545,7 +545,7 @@
 				<key>name</key>
 				<string>ofxBaseGui.h</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxBaseGui.h</string>
+				<string>../../../addons/ofxGui/src/ofxBaseGui.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -553,28 +553,28 @@
 			<dict>
 				<key>children</key>
 				<array>
-					<string>BA20A4B3FEF378FA209B9E4E</string>
-					<string>EE3013E1AD254D862ADCA585</string>
-					<string>AE859610F3926950EBBC8B13</string>
-					<string>481083C90D96C0AAA580E194</string>
-					<string>1824C7C391A2977DC5B741C4</string>
-					<string>99BDB3B23FCF282EB2B48FAE</string>
-					<string>607FCA3A979EBCF02F0B00FC</string>
-					<string>BD6A6ADD1A79B85E833FBDF1</string>
-					<string>44C0961009D36089EBA9C36F</string>
-					<string>AE7C2B0FD9ACD2665F8EEC36</string>
-					<string>0C357D495FA2C612DDB38FC2</string>
-					<string>E88235F2E990B0174C9DE6C4</string>
-					<string>73799D65360CD587DCAE90A0</string>
-					<string>F100E30570234E337922C10C</string>
-					<string>27CE0445D02D803853EC74E8</string>
-					<string>4EBE44F173B46F539D0F4741</string>
-					<string>AEA7CD14AC4CC1AF68D59D19</string>
-					<string>D41FA502010DB4C51A4C1390</string>
-					<string>99B37C8367EB4811EEF8E78D</string>
-					<string>CC050FCE6035B4BAFB0D11B1</string>
-					<string>E118568A6BABFFADB75DB858</string>
-					<string>78F524ADA8DDC5DF3F460FA5</string>
+					<string>9604B925D32EE39065747725</string>
+					<string>87F26B4B24CBD428AD9EEBAA</string>
+					<string>C88333E71C9457E441C33474</string>
+					<string>2834D88A62CD23F3DE2C47D1</string>
+					<string>181D363B6DD54D1FA6309C43</string>
+					<string>489B196944B06ADC2A071076</string>
+					<string>17E65988300FBD9AAA2CD0CA</string>
+					<string>ECF8674C7975F1063C5E30CA</string>
+					<string>1C0DA2561397A7DE0246858B</string>
+					<string>BA274EC7A169D538BD43A5D8</string>
+					<string>44B351490B620D04E1E7C52D</string>
+					<string>AE68B54581BE4A1DAE853180</string>
+					<string>78D67A00EB899FAC09430597</string>
+					<string>B87C60311EC1FE841C1ECD89</string>
+					<string>E112B3AEBEA2C091BF2B40AE</string>
+					<string>89449E3044D456F7DE7BEA14</string>
+					<string>15F2C6477A769C03A56D1401</string>
+					<string>52AFA1F08C420992CAAAE648</string>
+					<string>802251BAF1B35B1D67B32FD0</string>
+					<string>C70D8946940288799E82131E</string>
+					<string>907C5B5E104864A2D3A25745</string>
+					<string>0A1DAC09F322AE313A40706D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -596,14 +596,14 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>106B9A6182DF98E835C09B47</key>
+			<key>856AA354D08AB4B323081444</key>
 			<dict>
 				<key>fileRef</key>
-				<string>BA20A4B3FEF378FA209B9E4E</string>
+				<string>9604B925D32EE39065747725</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>BA20A4B3FEF378FA209B9E4E</key>
+			<key>9604B925D32EE39065747725</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -614,7 +614,7 @@
 				<key>name</key>
 				<string>ofxBaseGui.cpp</string>
 				<key>path</key>
-				<string>../../../../addons/ofxGui/src/ofxBaseGui.cpp</string>
+				<string>../../../addons/ofxGui/src/ofxBaseGui.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -789,9 +789,9 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../../addons/ofxGui/src</string>
-						<string>../../../../addons/ofxXmlSettings/libs</string>
-						<string>../../../../addons/ofxXmlSettings/src</string>
+						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -835,9 +835,9 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../../addons/ofxGui/src</string>
-						<string>../../../../addons/ofxXmlSettings/libs</string>
-						<string>../../../../addons/ofxXmlSettings/src</string>
+						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
@@ -924,7 +924,7 @@ fi
 				<key>name</key>
 				<string>openFrameworks</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks</string>
+				<string>../../../libs/openFrameworks</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
@@ -950,7 +950,7 @@ fi
 				<key>name</key>
 				<string>3d</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d</string>
+				<string>../../../libs/openFrameworks/3d</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -963,7 +963,7 @@ fi
 				<key>name</key>
 				<string>ofCamera.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/ofCamera.cpp</string>
+				<string>../../../libs/openFrameworks/3d/ofCamera.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -976,7 +976,7 @@ fi
 				<key>name</key>
 				<string>ofMesh.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/ofMesh.h</string>
+				<string>../../../libs/openFrameworks/3d/ofMesh.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -989,7 +989,7 @@ fi
 				<key>name</key>
 				<string>ofNode.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/ofNode.h</string>
+				<string>../../../libs/openFrameworks/3d/ofNode.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1002,7 +1002,7 @@ fi
 				<key>name</key>
 				<string>ofNode.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/ofNode.cpp</string>
+				<string>../../../libs/openFrameworks/3d/ofNode.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1015,7 +1015,7 @@ fi
 				<key>name</key>
 				<string>of3dPrimitives.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/of3dPrimitives.cpp</string>
+				<string>../../../libs/openFrameworks/3d/of3dPrimitives.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1028,7 +1028,7 @@ fi
 				<key>name</key>
 				<string>of3dUtils.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/of3dUtils.h</string>
+				<string>../../../libs/openFrameworks/3d/of3dUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1041,7 +1041,7 @@ fi
 				<key>name</key>
 				<string>ofEasyCam.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/ofEasyCam.cpp</string>
+				<string>../../../libs/openFrameworks/3d/ofEasyCam.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1054,7 +1054,7 @@ fi
 				<key>name</key>
 				<string>ofCamera.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/ofCamera.h</string>
+				<string>../../../libs/openFrameworks/3d/ofCamera.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1067,7 +1067,7 @@ fi
 				<key>name</key>
 				<string>ofMesh.inl</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/ofMesh.inl</string>
+				<string>../../../libs/openFrameworks/3d/ofMesh.inl</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1080,7 +1080,7 @@ fi
 				<key>name</key>
 				<string>of3dUtils.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/of3dUtils.cpp</string>
+				<string>../../../libs/openFrameworks/3d/of3dUtils.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1093,7 +1093,7 @@ fi
 				<key>name</key>
 				<string>of3dPrimitives.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/of3dPrimitives.h</string>
+				<string>../../../libs/openFrameworks/3d/of3dPrimitives.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1106,7 +1106,7 @@ fi
 				<key>name</key>
 				<string>ofEasyCam.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/3d/ofEasyCam.h</string>
+				<string>../../../libs/openFrameworks/3d/ofEasyCam.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1143,7 +1143,7 @@ fi
 				<key>name</key>
 				<string>video</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video</string>
+				<string>../../../libs/openFrameworks/video</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1156,7 +1156,7 @@ fi
 				<key>name</key>
 				<string>ofAVFoundationGrabber.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofAVFoundationGrabber.h</string>
+				<string>../../../libs/openFrameworks/video/ofAVFoundationGrabber.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1169,7 +1169,7 @@ fi
 				<key>name</key>
 				<string>ofVideoPlayer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofVideoPlayer.h</string>
+				<string>../../../libs/openFrameworks/video/ofVideoPlayer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1182,7 +1182,7 @@ fi
 				<key>name</key>
 				<string>ofAVFoundationPlayer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofAVFoundationPlayer.h</string>
+				<string>../../../libs/openFrameworks/video/ofAVFoundationPlayer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1195,7 +1195,7 @@ fi
 				<key>name</key>
 				<string>ofQtUtils.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQtUtils.cpp</string>
+				<string>../../../libs/openFrameworks/video/ofQtUtils.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1208,7 +1208,7 @@ fi
 				<key>name</key>
 				<string>ofQTKitGrabber.mm</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQTKitGrabber.mm</string>
+				<string>../../../libs/openFrameworks/video/ofQTKitGrabber.mm</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1221,7 +1221,7 @@ fi
 				<key>name</key>
 				<string>ofQuickTimeGrabber.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQuickTimeGrabber.cpp</string>
+				<string>../../../libs/openFrameworks/video/ofQuickTimeGrabber.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1234,7 +1234,7 @@ fi
 				<key>name</key>
 				<string>ofAVFoundationVideoPlayer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofAVFoundationVideoPlayer.h</string>
+				<string>../../../libs/openFrameworks/video/ofAVFoundationVideoPlayer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1247,7 +1247,7 @@ fi
 				<key>name</key>
 				<string>ofAVFoundationGrabber.mm</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofAVFoundationGrabber.mm</string>
+				<string>../../../libs/openFrameworks/video/ofAVFoundationGrabber.mm</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1260,7 +1260,7 @@ fi
 				<key>name</key>
 				<string>ofQTKitMovieRenderer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQTKitMovieRenderer.h</string>
+				<string>../../../libs/openFrameworks/video/ofQTKitMovieRenderer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1273,7 +1273,7 @@ fi
 				<key>name</key>
 				<string>ofVideoPlayer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofVideoPlayer.cpp</string>
+				<string>../../../libs/openFrameworks/video/ofVideoPlayer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1286,7 +1286,7 @@ fi
 				<key>name</key>
 				<string>ofQTKitGrabber.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQTKitGrabber.h</string>
+				<string>../../../libs/openFrameworks/video/ofQTKitGrabber.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1299,7 +1299,7 @@ fi
 				<key>name</key>
 				<string>ofQuickTimeGrabber.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQuickTimeGrabber.h</string>
+				<string>../../../libs/openFrameworks/video/ofQuickTimeGrabber.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1312,7 +1312,7 @@ fi
 				<key>name</key>
 				<string>ofQuickTimePlayer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQuickTimePlayer.cpp</string>
+				<string>../../../libs/openFrameworks/video/ofQuickTimePlayer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1325,7 +1325,7 @@ fi
 				<key>name</key>
 				<string>ofVideoGrabber.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofVideoGrabber.h</string>
+				<string>../../../libs/openFrameworks/video/ofVideoGrabber.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1338,7 +1338,7 @@ fi
 				<key>name</key>
 				<string>ofQTKitPlayer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQTKitPlayer.h</string>
+				<string>../../../libs/openFrameworks/video/ofQTKitPlayer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1351,7 +1351,7 @@ fi
 				<key>name</key>
 				<string>ofQtUtils.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQtUtils.h</string>
+				<string>../../../libs/openFrameworks/video/ofQtUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1364,7 +1364,7 @@ fi
 				<key>name</key>
 				<string>ofAVFoundationPlayer.mm</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofAVFoundationPlayer.mm</string>
+				<string>../../../libs/openFrameworks/video/ofAVFoundationPlayer.mm</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1377,7 +1377,7 @@ fi
 				<key>name</key>
 				<string>ofQuickTimePlayer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQuickTimePlayer.h</string>
+				<string>../../../libs/openFrameworks/video/ofQuickTimePlayer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1390,7 +1390,7 @@ fi
 				<key>name</key>
 				<string>ofVideoGrabber.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofVideoGrabber.cpp</string>
+				<string>../../../libs/openFrameworks/video/ofVideoGrabber.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1403,7 +1403,7 @@ fi
 				<key>name</key>
 				<string>ofQTKitPlayer.mm</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQTKitPlayer.mm</string>
+				<string>../../../libs/openFrameworks/video/ofQTKitPlayer.mm</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1416,7 +1416,7 @@ fi
 				<key>name</key>
 				<string>ofQTKitMovieRenderer.m</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofQTKitMovieRenderer.m</string>
+				<string>../../../libs/openFrameworks/video/ofQTKitMovieRenderer.m</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1429,7 +1429,7 @@ fi
 				<key>name</key>
 				<string>ofAVFoundationVideoPlayer.m</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofAVFoundationVideoPlayer.m</string>
+				<string>../../../libs/openFrameworks/video/ofAVFoundationVideoPlayer.m</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1442,7 +1442,7 @@ fi
 				<key>name</key>
 				<string>ofVideoBaseTypes.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/video/ofVideoBaseTypes.h</string>
+				<string>../../../libs/openFrameworks/video/ofVideoBaseTypes.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1468,7 +1468,7 @@ fi
 				<key>name</key>
 				<string>types</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types</string>
+				<string>../../../libs/openFrameworks/types</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1481,7 +1481,7 @@ fi
 				<key>name</key>
 				<string>ofParameterGroup.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofParameterGroup.h</string>
+				<string>../../../libs/openFrameworks/types/ofParameterGroup.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1494,7 +1494,7 @@ fi
 				<key>name</key>
 				<string>ofColor.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofColor.h</string>
+				<string>../../../libs/openFrameworks/types/ofColor.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1507,7 +1507,7 @@ fi
 				<key>name</key>
 				<string>ofRectangle.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofRectangle.cpp</string>
+				<string>../../../libs/openFrameworks/types/ofRectangle.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1520,7 +1520,7 @@ fi
 				<key>name</key>
 				<string>ofPoint.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofPoint.h</string>
+				<string>../../../libs/openFrameworks/types/ofPoint.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1533,7 +1533,7 @@ fi
 				<key>name</key>
 				<string>ofTypes.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofTypes.h</string>
+				<string>../../../libs/openFrameworks/types/ofTypes.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1546,7 +1546,7 @@ fi
 				<key>name</key>
 				<string>ofRectangle.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofRectangle.h</string>
+				<string>../../../libs/openFrameworks/types/ofRectangle.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1559,7 +1559,7 @@ fi
 				<key>name</key>
 				<string>ofBaseTypes.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofBaseTypes.cpp</string>
+				<string>../../../libs/openFrameworks/types/ofBaseTypes.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1572,7 +1572,7 @@ fi
 				<key>name</key>
 				<string>ofParameterGroup.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofParameterGroup.cpp</string>
+				<string>../../../libs/openFrameworks/types/ofParameterGroup.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1585,7 +1585,7 @@ fi
 				<key>name</key>
 				<string>ofParameter.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofParameter.h</string>
+				<string>../../../libs/openFrameworks/types/ofParameter.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1598,7 +1598,7 @@ fi
 				<key>name</key>
 				<string>ofColor.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofColor.cpp</string>
+				<string>../../../libs/openFrameworks/types/ofColor.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1611,7 +1611,7 @@ fi
 				<key>name</key>
 				<string>ofParameter.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofParameter.cpp</string>
+				<string>../../../libs/openFrameworks/types/ofParameter.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1624,7 +1624,7 @@ fi
 				<key>name</key>
 				<string>ofBaseTypes.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/types/ofBaseTypes.h</string>
+				<string>../../../libs/openFrameworks/types/ofBaseTypes.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1655,7 +1655,7 @@ fi
 				<key>name</key>
 				<string>app</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app</string>
+				<string>../../../libs/openFrameworks/app</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1668,7 +1668,7 @@ fi
 				<key>name</key>
 				<string>ofMainLoop.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofMainLoop.h</string>
+				<string>../../../libs/openFrameworks/app/ofMainLoop.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1681,7 +1681,7 @@ fi
 				<key>name</key>
 				<string>ofBaseApp.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofBaseApp.cpp</string>
+				<string>../../../libs/openFrameworks/app/ofBaseApp.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1694,7 +1694,7 @@ fi
 				<key>name</key>
 				<string>ofAppGlutWindow.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppGlutWindow.cpp</string>
+				<string>../../../libs/openFrameworks/app/ofAppGlutWindow.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1707,7 +1707,7 @@ fi
 				<key>name</key>
 				<string>ofWindowSettings.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofWindowSettings.h</string>
+				<string>../../../libs/openFrameworks/app/ofWindowSettings.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1720,7 +1720,7 @@ fi
 				<key>name</key>
 				<string>ofAppEGLWindow.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppEGLWindow.cpp</string>
+				<string>../../../libs/openFrameworks/app/ofAppEGLWindow.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1733,7 +1733,7 @@ fi
 				<key>name</key>
 				<string>ofAppBaseWindow.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppBaseWindow.h</string>
+				<string>../../../libs/openFrameworks/app/ofAppBaseWindow.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1746,7 +1746,7 @@ fi
 				<key>name</key>
 				<string>ofIcon.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofIcon.h</string>
+				<string>../../../libs/openFrameworks/app/ofIcon.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1759,7 +1759,7 @@ fi
 				<key>name</key>
 				<string>ofAppNoWindow.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppNoWindow.h</string>
+				<string>../../../libs/openFrameworks/app/ofAppNoWindow.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1772,7 +1772,7 @@ fi
 				<key>name</key>
 				<string>ofBaseApp.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofBaseApp.h</string>
+				<string>../../../libs/openFrameworks/app/ofBaseApp.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1785,7 +1785,7 @@ fi
 				<key>name</key>
 				<string>ofAppEGLWindow.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppEGLWindow.h</string>
+				<string>../../../libs/openFrameworks/app/ofAppEGLWindow.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1798,7 +1798,7 @@ fi
 				<key>name</key>
 				<string>ofMainLoop.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofMainLoop.cpp</string>
+				<string>../../../libs/openFrameworks/app/ofMainLoop.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1811,7 +1811,7 @@ fi
 				<key>name</key>
 				<string>ofAppRunner.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppRunner.h</string>
+				<string>../../../libs/openFrameworks/app/ofAppRunner.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1824,7 +1824,7 @@ fi
 				<key>name</key>
 				<string>ofAppNoWindow.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppNoWindow.cpp</string>
+				<string>../../../libs/openFrameworks/app/ofAppNoWindow.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1837,7 +1837,7 @@ fi
 				<key>name</key>
 				<string>ofAppGLFWWindow.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppGLFWWindow.cpp</string>
+				<string>../../../libs/openFrameworks/app/ofAppGLFWWindow.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1850,7 +1850,7 @@ fi
 				<key>name</key>
 				<string>ofAppGlutWindow.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppGlutWindow.h</string>
+				<string>../../../libs/openFrameworks/app/ofAppGlutWindow.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1863,7 +1863,7 @@ fi
 				<key>name</key>
 				<string>ofAppRunner.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppRunner.cpp</string>
+				<string>../../../libs/openFrameworks/app/ofAppRunner.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1876,7 +1876,7 @@ fi
 				<key>name</key>
 				<string>ofAppGLFWWindow.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/app/ofAppGLFWWindow.h</string>
+				<string>../../../libs/openFrameworks/app/ofAppGLFWWindow.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1889,7 +1889,7 @@ fi
 				<key>name</key>
 				<string>ofMain.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/ofMain.h</string>
+				<string>../../../libs/openFrameworks/ofMain.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1927,7 +1927,7 @@ fi
 				<key>name</key>
 				<string>utils</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils</string>
+				<string>../../../libs/openFrameworks/utils</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1940,7 +1940,7 @@ fi
 				<key>name</key>
 				<string>ofThreadChannel.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofThreadChannel.h</string>
+				<string>../../../libs/openFrameworks/utils/ofThreadChannel.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1953,7 +1953,7 @@ fi
 				<key>name</key>
 				<string>ofThread.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofThread.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofThread.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1966,7 +1966,7 @@ fi
 				<key>name</key>
 				<string>ofFpsCounter.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofFpsCounter.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofFpsCounter.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1979,7 +1979,7 @@ fi
 				<key>name</key>
 				<string>ofURLFileLoader.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofURLFileLoader.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofURLFileLoader.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -1992,7 +1992,7 @@ fi
 				<key>name</key>
 				<string>ofConstants.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofConstants.h</string>
+				<string>../../../libs/openFrameworks/utils/ofConstants.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2005,7 +2005,7 @@ fi
 				<key>name</key>
 				<string>ofXml.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofXml.h</string>
+				<string>../../../libs/openFrameworks/utils/ofXml.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2018,7 +2018,7 @@ fi
 				<key>name</key>
 				<string>ofFpsCounter.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofFpsCounter.h</string>
+				<string>../../../libs/openFrameworks/utils/ofFpsCounter.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2031,7 +2031,7 @@ fi
 				<key>name</key>
 				<string>ofLog.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofLog.h</string>
+				<string>../../../libs/openFrameworks/utils/ofLog.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2044,7 +2044,7 @@ fi
 				<key>name</key>
 				<string>ofSystemUtils.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofSystemUtils.h</string>
+				<string>../../../libs/openFrameworks/utils/ofSystemUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2057,7 +2057,7 @@ fi
 				<key>name</key>
 				<string>ofSystemUtils.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofSystemUtils.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofSystemUtils.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2070,7 +2070,7 @@ fi
 				<key>name</key>
 				<string>ofUtils.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofUtils.h</string>
+				<string>../../../libs/openFrameworks/utils/ofUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2083,7 +2083,7 @@ fi
 				<key>name</key>
 				<string>ofNoise.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofNoise.h</string>
+				<string>../../../libs/openFrameworks/utils/ofNoise.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2096,7 +2096,7 @@ fi
 				<key>name</key>
 				<string>ofLog.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofLog.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofLog.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2109,7 +2109,7 @@ fi
 				<key>name</key>
 				<string>ofTimer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofTimer.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofTimer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2122,7 +2122,7 @@ fi
 				<key>name</key>
 				<string>ofFileUtils.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofFileUtils.h</string>
+				<string>../../../libs/openFrameworks/utils/ofFileUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2135,7 +2135,7 @@ fi
 				<key>name</key>
 				<string>ofThread.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofThread.h</string>
+				<string>../../../libs/openFrameworks/utils/ofThread.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2148,7 +2148,7 @@ fi
 				<key>name</key>
 				<string>ofURLFileLoader.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofURLFileLoader.h</string>
+				<string>../../../libs/openFrameworks/utils/ofURLFileLoader.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2161,7 +2161,7 @@ fi
 				<key>name</key>
 				<string>ofJson.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofJson.h</string>
+				<string>../../../libs/openFrameworks/utils/ofJson.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2174,7 +2174,7 @@ fi
 				<key>name</key>
 				<string>ofFileUtils.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofFileUtils.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofFileUtils.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2187,7 +2187,7 @@ fi
 				<key>name</key>
 				<string>ofMatrixStack.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofMatrixStack.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofMatrixStack.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2200,7 +2200,7 @@ fi
 				<key>name</key>
 				<string>ofUtils.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofUtils.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofUtils.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2213,7 +2213,7 @@ fi
 				<key>name</key>
 				<string>ofXml.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofXml.cpp</string>
+				<string>../../../libs/openFrameworks/utils/ofXml.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2226,7 +2226,7 @@ fi
 				<key>name</key>
 				<string>ofMatrixStack.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofMatrixStack.h</string>
+				<string>../../../libs/openFrameworks/utils/ofMatrixStack.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2239,7 +2239,7 @@ fi
 				<key>name</key>
 				<string>ofTimer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/utils/ofTimer.h</string>
+				<string>../../../libs/openFrameworks/utils/ofTimer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2268,7 +2268,7 @@ fi
 				<key>name</key>
 				<string>math</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math</string>
+				<string>../../../libs/openFrameworks/math</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2281,7 +2281,7 @@ fi
 				<key>name</key>
 				<string>ofVec2f.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofVec2f.cpp</string>
+				<string>../../../libs/openFrameworks/math/ofVec2f.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2294,7 +2294,7 @@ fi
 				<key>name</key>
 				<string>ofVec4f.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofVec4f.cpp</string>
+				<string>../../../libs/openFrameworks/math/ofVec4f.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2307,7 +2307,7 @@ fi
 				<key>name</key>
 				<string>ofVec4f.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofVec4f.h</string>
+				<string>../../../libs/openFrameworks/math/ofVec4f.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2320,7 +2320,7 @@ fi
 				<key>name</key>
 				<string>ofMath.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofMath.cpp</string>
+				<string>../../../libs/openFrameworks/math/ofMath.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2333,7 +2333,7 @@ fi
 				<key>name</key>
 				<string>ofMathConstants.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofMathConstants.h</string>
+				<string>../../../libs/openFrameworks/math/ofMathConstants.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2346,7 +2346,7 @@ fi
 				<key>name</key>
 				<string>ofMatrix4x4.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofMatrix4x4.h</string>
+				<string>../../../libs/openFrameworks/math/ofMatrix4x4.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2359,7 +2359,7 @@ fi
 				<key>name</key>
 				<string>ofVec3f.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofVec3f.h</string>
+				<string>../../../libs/openFrameworks/math/ofVec3f.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2372,7 +2372,7 @@ fi
 				<key>name</key>
 				<string>ofMatrix3x3.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofMatrix3x3.cpp</string>
+				<string>../../../libs/openFrameworks/math/ofMatrix3x3.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2385,7 +2385,7 @@ fi
 				<key>name</key>
 				<string>ofMath.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofMath.h</string>
+				<string>../../../libs/openFrameworks/math/ofMath.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2398,7 +2398,7 @@ fi
 				<key>name</key>
 				<string>ofQuaternion.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofQuaternion.h</string>
+				<string>../../../libs/openFrameworks/math/ofQuaternion.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2411,7 +2411,7 @@ fi
 				<key>name</key>
 				<string>ofVectorMath.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofVectorMath.h</string>
+				<string>../../../libs/openFrameworks/math/ofVectorMath.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2424,7 +2424,7 @@ fi
 				<key>name</key>
 				<string>ofQuaternion.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofQuaternion.cpp</string>
+				<string>../../../libs/openFrameworks/math/ofQuaternion.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2437,7 +2437,7 @@ fi
 				<key>name</key>
 				<string>ofVec2f.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofVec2f.h</string>
+				<string>../../../libs/openFrameworks/math/ofVec2f.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2450,7 +2450,7 @@ fi
 				<key>name</key>
 				<string>ofMatrix4x4.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofMatrix4x4.cpp</string>
+				<string>../../../libs/openFrameworks/math/ofMatrix4x4.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2463,7 +2463,7 @@ fi
 				<key>name</key>
 				<string>ofMatrix3x3.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/math/ofMatrix3x3.h</string>
+				<string>../../../libs/openFrameworks/math/ofMatrix3x3.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2500,7 +2500,7 @@ fi
 				<key>name</key>
 				<string>gl</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl</string>
+				<string>../../../libs/openFrameworks/gl</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2513,7 +2513,7 @@ fi
 				<key>name</key>
 				<string>ofVboMesh.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofVboMesh.h</string>
+				<string>../../../libs/openFrameworks/gl/ofVboMesh.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2526,7 +2526,7 @@ fi
 				<key>name</key>
 				<string>ofTexture.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofTexture.h</string>
+				<string>../../../libs/openFrameworks/gl/ofTexture.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2539,7 +2539,7 @@ fi
 				<key>name</key>
 				<string>ofShader.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofShader.h</string>
+				<string>../../../libs/openFrameworks/gl/ofShader.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2552,7 +2552,7 @@ fi
 				<key>name</key>
 				<string>ofMaterial.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofMaterial.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofMaterial.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2565,7 +2565,7 @@ fi
 				<key>name</key>
 				<string>ofFbo.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofFbo.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofFbo.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2578,7 +2578,7 @@ fi
 				<key>name</key>
 				<string>ofLight.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofLight.h</string>
+				<string>../../../libs/openFrameworks/gl/ofLight.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2591,7 +2591,7 @@ fi
 				<key>name</key>
 				<string>ofMaterial.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofMaterial.h</string>
+				<string>../../../libs/openFrameworks/gl/ofMaterial.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2604,7 +2604,7 @@ fi
 				<key>name</key>
 				<string>ofShader.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofShader.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofShader.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2617,7 +2617,7 @@ fi
 				<key>name</key>
 				<string>ofBufferObject.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofBufferObject.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofBufferObject.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2630,7 +2630,7 @@ fi
 				<key>name</key>
 				<string>ofVboMesh.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofVboMesh.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofVboMesh.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2643,7 +2643,7 @@ fi
 				<key>name</key>
 				<string>ofGLUtils.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofGLUtils.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofGLUtils.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2656,7 +2656,7 @@ fi
 				<key>name</key>
 				<string>ofVbo.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofVbo.h</string>
+				<string>../../../libs/openFrameworks/gl/ofVbo.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2669,7 +2669,7 @@ fi
 				<key>name</key>
 				<string>ofLight.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofLight.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofLight.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2682,7 +2682,7 @@ fi
 				<key>name</key>
 				<string>ofBufferObject.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofBufferObject.h</string>
+				<string>../../../libs/openFrameworks/gl/ofBufferObject.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2695,7 +2695,7 @@ fi
 				<key>name</key>
 				<string>ofGLProgrammableRenderer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofGLProgrammableRenderer.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofGLProgrammableRenderer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2708,7 +2708,7 @@ fi
 				<key>name</key>
 				<string>ofFbo.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofFbo.h</string>
+				<string>../../../libs/openFrameworks/gl/ofFbo.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2721,7 +2721,7 @@ fi
 				<key>name</key>
 				<string>ofGLBaseTypes.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofGLBaseTypes.h</string>
+				<string>../../../libs/openFrameworks/gl/ofGLBaseTypes.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2734,7 +2734,7 @@ fi
 				<key>name</key>
 				<string>ofVbo.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofVbo.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofVbo.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2747,7 +2747,7 @@ fi
 				<key>name</key>
 				<string>ofGLProgrammableRenderer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofGLProgrammableRenderer.h</string>
+				<string>../../../libs/openFrameworks/gl/ofGLProgrammableRenderer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2760,7 +2760,7 @@ fi
 				<key>name</key>
 				<string>ofTexture.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofTexture.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofTexture.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2773,7 +2773,7 @@ fi
 				<key>name</key>
 				<string>ofGLUtils.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofGLUtils.h</string>
+				<string>../../../libs/openFrameworks/gl/ofGLUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2786,7 +2786,7 @@ fi
 				<key>name</key>
 				<string>ofGLRenderer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofGLRenderer.cpp</string>
+				<string>../../../libs/openFrameworks/gl/ofGLRenderer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2799,7 +2799,7 @@ fi
 				<key>name</key>
 				<string>ofGLRenderer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/gl/ofGLRenderer.h</string>
+				<string>../../../libs/openFrameworks/gl/ofGLRenderer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2817,7 +2817,7 @@ fi
 				<key>name</key>
 				<string>communication</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/communication</string>
+				<string>../../../libs/openFrameworks/communication</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2830,7 +2830,7 @@ fi
 				<key>name</key>
 				<string>ofArduino.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/communication/ofArduino.h</string>
+				<string>../../../libs/openFrameworks/communication/ofArduino.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2843,7 +2843,7 @@ fi
 				<key>name</key>
 				<string>ofSerial.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/communication/ofSerial.cpp</string>
+				<string>../../../libs/openFrameworks/communication/ofSerial.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2856,7 +2856,7 @@ fi
 				<key>name</key>
 				<string>ofSerial.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/communication/ofSerial.h</string>
+				<string>../../../libs/openFrameworks/communication/ofSerial.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2869,7 +2869,7 @@ fi
 				<key>name</key>
 				<string>ofArduino.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/communication/ofArduino.cpp</string>
+				<string>../../../libs/openFrameworks/communication/ofArduino.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2887,7 +2887,7 @@ fi
 				<key>name</key>
 				<string>events</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/events</string>
+				<string>../../../libs/openFrameworks/events</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2900,7 +2900,7 @@ fi
 				<key>name</key>
 				<string>ofEventUtils.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/events/ofEventUtils.h</string>
+				<string>../../../libs/openFrameworks/events/ofEventUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2913,7 +2913,7 @@ fi
 				<key>name</key>
 				<string>ofEvent.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/events/ofEvent.h</string>
+				<string>../../../libs/openFrameworks/events/ofEvent.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2926,7 +2926,7 @@ fi
 				<key>name</key>
 				<string>ofEvents.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/events/ofEvents.h</string>
+				<string>../../../libs/openFrameworks/events/ofEvents.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2939,7 +2939,7 @@ fi
 				<key>name</key>
 				<string>ofEvents.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/events/ofEvents.cpp</string>
+				<string>../../../libs/openFrameworks/events/ofEvents.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2978,7 +2978,7 @@ fi
 				<key>name</key>
 				<string>graphics</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics</string>
+				<string>../../../libs/openFrameworks/graphics</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2991,7 +2991,7 @@ fi
 				<key>name</key>
 				<string>ofGraphicsBaseTypes.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofGraphicsBaseTypes.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofGraphicsBaseTypes.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3004,7 +3004,7 @@ fi
 				<key>name</key>
 				<string>ofPath.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofPath.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofPath.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3017,7 +3017,7 @@ fi
 				<key>name</key>
 				<string>ofBitmapFont.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofBitmapFont.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofBitmapFont.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3030,7 +3030,7 @@ fi
 				<key>name</key>
 				<string>ofTrueTypeFont.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofTrueTypeFont.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofTrueTypeFont.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3043,7 +3043,7 @@ fi
 				<key>name</key>
 				<string>ofTessellator.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofTessellator.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofTessellator.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3056,7 +3056,7 @@ fi
 				<key>name</key>
 				<string>ofGraphics.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofGraphics.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofGraphics.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3069,7 +3069,7 @@ fi
 				<key>name</key>
 				<string>ofPolyline.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofPolyline.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofPolyline.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3082,7 +3082,7 @@ fi
 				<key>name</key>
 				<string>ofGraphicsBaseTypes.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofGraphicsBaseTypes.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofGraphicsBaseTypes.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3095,7 +3095,7 @@ fi
 				<key>name</key>
 				<string>ofCairoRenderer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofCairoRenderer.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofCairoRenderer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3108,7 +3108,7 @@ fi
 				<key>name</key>
 				<string>ofRendererCollection.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofRendererCollection.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofRendererCollection.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3121,7 +3121,7 @@ fi
 				<key>name</key>
 				<string>ofPath.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofPath.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofPath.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3134,7 +3134,7 @@ fi
 				<key>name</key>
 				<string>ofPixels.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofPixels.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofPixels.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3147,7 +3147,7 @@ fi
 				<key>name</key>
 				<string>ofPolyline.inl</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofPolyline.inl</string>
+				<string>../../../libs/openFrameworks/graphics/ofPolyline.inl</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3160,7 +3160,7 @@ fi
 				<key>name</key>
 				<string>of3dGraphics.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/of3dGraphics.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/of3dGraphics.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3173,7 +3173,7 @@ fi
 				<key>name</key>
 				<string>ofImage.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofImage.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofImage.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3186,7 +3186,7 @@ fi
 				<key>name</key>
 				<string>ofPixels.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofPixels.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofPixels.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3199,7 +3199,7 @@ fi
 				<key>name</key>
 				<string>ofCairoRenderer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofCairoRenderer.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofCairoRenderer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3212,7 +3212,7 @@ fi
 				<key>name</key>
 				<string>ofBitmapFont.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofBitmapFont.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofBitmapFont.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3225,7 +3225,7 @@ fi
 				<key>name</key>
 				<string>ofTrueTypeFont.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofTrueTypeFont.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3238,7 +3238,7 @@ fi
 				<key>name</key>
 				<string>ofRendererCollection.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofRendererCollection.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofRendererCollection.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3251,7 +3251,7 @@ fi
 				<key>name</key>
 				<string>ofGraphics.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofGraphics.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofGraphics.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3264,7 +3264,7 @@ fi
 				<key>name</key>
 				<string>ofGraphicsConstants.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofGraphicsConstants.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofGraphicsConstants.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3277,7 +3277,7 @@ fi
 				<key>name</key>
 				<string>ofImage.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofImage.cpp</string>
+				<string>../../../libs/openFrameworks/graphics/ofImage.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3290,7 +3290,7 @@ fi
 				<key>name</key>
 				<string>of3dGraphics.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/of3dGraphics.h</string>
+				<string>../../../libs/openFrameworks/graphics/of3dGraphics.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3303,7 +3303,7 @@ fi
 				<key>name</key>
 				<string>ofTessellator.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/graphics/ofTessellator.h</string>
+				<string>../../../libs/openFrameworks/graphics/ofTessellator.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3332,7 +3332,7 @@ fi
 				<key>name</key>
 				<string>sound</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound</string>
+				<string>../../../libs/openFrameworks/sound</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3345,7 +3345,7 @@ fi
 				<key>name</key>
 				<string>ofSoundStream.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundStream.cpp</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundStream.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3358,7 +3358,7 @@ fi
 				<key>name</key>
 				<string>ofSoundStream.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundStream.h</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundStream.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3371,7 +3371,7 @@ fi
 				<key>name</key>
 				<string>ofSoundPlayer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundPlayer.h</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundPlayer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3384,7 +3384,7 @@ fi
 				<key>name</key>
 				<string>ofOpenALSoundPlayer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofOpenALSoundPlayer.h</string>
+				<string>../../../libs/openFrameworks/sound/ofOpenALSoundPlayer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3397,7 +3397,7 @@ fi
 				<key>name</key>
 				<string>ofRtAudioSoundStream.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofRtAudioSoundStream.cpp</string>
+				<string>../../../libs/openFrameworks/sound/ofRtAudioSoundStream.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3410,7 +3410,7 @@ fi
 				<key>name</key>
 				<string>ofFmodSoundPlayer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofFmodSoundPlayer.cpp</string>
+				<string>../../../libs/openFrameworks/sound/ofFmodSoundPlayer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3423,7 +3423,7 @@ fi
 				<key>name</key>
 				<string>ofSoundBaseTypes.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundBaseTypes.cpp</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundBaseTypes.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3436,7 +3436,7 @@ fi
 				<key>name</key>
 				<string>ofOpenALSoundPlayer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofOpenALSoundPlayer.cpp</string>
+				<string>../../../libs/openFrameworks/sound/ofOpenALSoundPlayer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3449,7 +3449,7 @@ fi
 				<key>name</key>
 				<string>ofSoundPlayer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundPlayer.cpp</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundPlayer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3462,7 +3462,7 @@ fi
 				<key>name</key>
 				<string>ofRtAudioSoundStream.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofRtAudioSoundStream.h</string>
+				<string>../../../libs/openFrameworks/sound/ofRtAudioSoundStream.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3475,7 +3475,7 @@ fi
 				<key>name</key>
 				<string>ofSoundUtils.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundUtils.h</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundUtils.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3488,7 +3488,7 @@ fi
 				<key>name</key>
 				<string>ofSoundBuffer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundBuffer.h</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundBuffer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3501,7 +3501,7 @@ fi
 				<key>name</key>
 				<string>ofFmodSoundPlayer.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofFmodSoundPlayer.h</string>
+				<string>../../../libs/openFrameworks/sound/ofFmodSoundPlayer.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3514,7 +3514,7 @@ fi
 				<key>name</key>
 				<string>ofSoundBuffer.cpp</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundBuffer.cpp</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundBuffer.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3527,7 +3527,7 @@ fi
 				<key>name</key>
 				<string>ofSoundBaseTypes.h</string>
 				<key>path</key>
-				<string>../../../../libs/openFrameworks/sound/ofSoundBaseTypes.h</string>
+				<string>../../../libs/openFrameworks/sound/ofSoundBaseTypes.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -3641,9 +3641,9 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../../addons/ofxGui/src</string>
-						<string>../../../../addons/ofxXmlSettings/libs</string>
-						<string>../../../../addons/ofxXmlSettings/src</string>
+						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -3707,9 +3707,9 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../../addons/ofxGui/src</string>
-						<string>../../../../addons/ofxXmlSettings/libs</string>
-						<string>../../../../addons/ofxXmlSettings/src</string>
+						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>MACOSX_DEPLOYMENT_TARGET</key>
 					<string>10.9</string>
@@ -3736,20 +3736,20 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>106B9A6182DF98E835C09B47</string>
-					<string>A61B54CA66E926867C59D2C6</string>
-					<string>CA7E31A02CAF4836F8551ADD</string>
-					<string>CFFFBA144E8160ECC1C97982</string>
-					<string>75E465AE7EDAD189B42B8D95</string>
-					<string>81BE400C35825643551A3190</string>
-					<string>CE6F136678038366969711AB</string>
-					<string>A2953313263AE1234930247E</string>
-					<string>413B65A0F41D699F37AB4C06</string>
-					<string>B07D6C52C2FE371D2B91739E</string>
-					<string>B8A4986AE3CFD44755D311C7</string>
-					<string>28DCB9949680410908EFD4D5</string>
-					<string>8AAF2BA4AFCBEC334841B989</string>
-					<string>40755491CDDD7249B25A1F2D</string>
+					<string>856AA354D08AB4B323081444</string>
+					<string>5CBB2AB3A60F65431D7B555D</string>
+					<string>853E0BA2F448076739446874</string>
+					<string>B266578FC55D23BFEBC042E7</string>
+					<string>852E0891794923EE7583C621</string>
+					<string>483908258D00B98B4BE69F07</string>
+					<string>F285EB3169F1566CA3D93C20</string>
+					<string>837220E80EB56CD44AD27F2A</string>
+					<string>B56FE57CC35806596D38118C</string>
+					<string>1CD33E884D9E3358252E82A1</string>
+					<string>933A2227713C720CEFF80FD9</string>
+					<string>9D44DC88EF9E7991B4A09951</string>
+					<string>5A4349E9754D6FA14C0F2A3A</string>
+					<string>63B57AC5BF4EF088491E0317</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -3850,9 +3850,9 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../../addons/ofxGui/src</string>
-						<string>../../../../addons/ofxXmlSettings/libs</string>
-						<string>../../../../addons/ofxXmlSettings/src</string>
+						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_DEBUG)</string>
@@ -3905,9 +3905,9 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../../addons/ofxGui/src</string>
-						<string>../../../../addons/ofxXmlSettings/libs</string>
-						<string>../../../../addons/ofxXmlSettings/src</string>
+						<string>../../../addons/ofxGui/src</string>
+						<string>../../../addons/ofxXmlSettings/libs</string>
+						<string>../../../addons/ofxXmlSettings/src</string>
 					</array>
 					<key>ICON</key>
 					<string>$(ICON_NAME_RELEASE)</string>
