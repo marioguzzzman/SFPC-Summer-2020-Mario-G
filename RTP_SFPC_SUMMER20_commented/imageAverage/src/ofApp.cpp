@@ -5,7 +5,7 @@ void ofApp::setup(){
 
     
     ofDirectory dir;
-    dir.listDir("sophia");
+    dir.listDir("avedon");
     for (int i = 0; i < dir.size(); i++){
 
         // creates a temporary image, adding to the vector and then adding.  
@@ -40,25 +40,31 @@ void ofApp::setup(){
             float sumBlue = 0;
             float sumGreen = 0;
 
-            //wTo do the average we take pixel 0 from all images
-            for (int k = 0; k < images.size(); k++){
+            //To do the average we take pixel 0 from all images
+//            for (int k = 0; k < images.size(); k++){
+                for (int k = 0; k < images.size()/2; k++){
+
                 ofColor color = images[k].getColor(i,j);
                 
-                sumRed += color.r;
+                sumRed   += color.r;
                 sumGreen += color.g;
-                 sumBlue += color.b;
+                sumBlue  += color.b;
             }
             // (2) divide
             sumRed /= (float)images.size();
             sumBlue /= (float)images.size();
             sumGreen /= (float)images.size();
-
+            
+            
             // We set the pixel
             average.setColor(i,j, ofColor(sumRed, sumGreen, sumBlue));
             
             
         }
     }
+    
+    ofColor(255 );
+    ofDrawRectangle(0, 0, 100, 100);
     
     average.update(); // when you creating it synthetically, you need to update
     
